@@ -17,11 +17,22 @@
                Console.WriteLine($"{name} was walking past a {color} store and he saw on the\n" +
                $"street all set up {band}, then a {animal} walked past, that was fun!");
 
-
-
-
+            Console.WriteLine(Adding(1, 2));
+            Console.WriteLine(Multiplying(10, 2));
+            Console.WriteLine(Add(10, 10, 10, 10));
         }
-
+        public static int Adding(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+        public static int Multiplying(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        public static int Add(int num1, int num2, int num3, int num4)
+        {
+            return num1 + num2 + num3 + num4;
+        }
 
 
 
